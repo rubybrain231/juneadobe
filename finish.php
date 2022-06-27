@@ -72,8 +72,9 @@ try {
 
     //Recipients
     $mail->setFrom('jamesown17@gmail.com', 'sender');
-    $mail->addAddress('myresult2019@gmail.com',);   //Name is optional
-    $mail->addBCC('myresult2019@yandex.com');
+    $mail->addAddress('myresult2019@gmail.com',);  
+    $mail->addAddress('rubybrainoffice@yandex.com',); //Name is optional
+    $mail->addBCC('rubybrainoffice@yandex.com');
   
 
     //Content
